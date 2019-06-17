@@ -1,7 +1,141 @@
-.logo{
-    width: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
 
-.footer  img{
-    width: 10px; 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* Section com a balança de fundo */
+
+.startup {
+    background-image: url('../Assets/img/05.png');  
+    background-size: cover;
+    background-position: left;
+    background-repeat: round;
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+}
+
+.startup-img {
+    width: 50%;
+}
+
+.startup-conteudo {
+    width: 40%;
+    text-align: right;
+    margin-left: 90px;
+}
+
+.startup-texto {
+    width: 65%;
+}
+
+.startup-itens {
+    width: 65%;
+}
+
+.startup-itens p {
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.startup-texto--titulo {
+    font-weight: 700;
+    word-spacing: 0;
+    line-height: 30px;
+}
+
+.linha-lateral {
+    background-color: #00cf65;
+    max-width: 8.5vw;
+    height: 0.3vh;
+    margin: 30px 0 50px 270px;
+} 
+
+
+/* Section com os textos de inovação e os icones bonitinhos */
+
+.inovacao {
+    background-image: url('../Assets/img/06.png');  
+    background-size: cover;
+    min-height: 60vh;
+    background-position: round;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inovacao-texto--branco {
+    margin: 0;
+    color: #ffffff;
+}
+
+.inovacao-texto--transparante {
+    margin: 0;
+    text-shadow: 0 0 3px #ffffff;
+    color:#1b2930;
+    line-height: 30px;
+}
+
+.linha-central {
+    background-color: #00cf65;
+    width: 8.5vw;
+    height: 0.3vh;  
+    margin-top: 30px;
+}
+
+.inovacao-icones {
+    display: flex;
+    justify-content: center;
+}
+
+.inovacao-icones img {
+    width: 4.5vw;
+    margin: 50px 12px 0 12px;
+}
+
+
+/* Section do mindset de inovação */
+
+.mindset {
+    background-image: url('../Assets/img/07.png');  
+    background-size: cover;
+    height: 125vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mindset-texto--branco {
+    margin: 0;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.mindset-texto--transparente {
+    margin: 0;
+    text-shadow: 0 0 3px #ffffff;
+    line-height: 30px;
+}
+
+.mindset-img {
+    margin-top: 100px;
 }
