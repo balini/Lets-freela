@@ -106,9 +106,12 @@ a {
 
 .inovacao-texto--transparante {
     margin: 0;
-    -webkit-text-stroke: 1px white;
     font-weight: 800;
     line-height: 30px;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+    -webkit-text-stroke: 1px white;
 }
 
 .linha-central {
@@ -140,7 +143,7 @@ a {
 .mindset {
     background-image: url('../Assets/img/07.png');  
     background-size: cover;
-    min-height: 140vh;
+    min-height: 130vh;
     background-position: center;
     background-repeat: no-repeat;
     font-size: 40px;
@@ -160,6 +163,9 @@ a {
     -webkit-text-stroke: 1px white;
     font-weight: 800;
     line-height: 30px;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
 }
 
 .mindset-img {
