@@ -4,55 +4,205 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel=stylesheet href="Style/style.css">
-        <link rel = stylesheet href="Style/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+        <link rel=stylesheet href="./Style/style.css">
+        <link rel = stylesheet href="./Style/bootstrap.min.css">
         <title>Lets Ventures</title>
     </head>
     <body>
-        <!--O header vai conter a nav e o carrossel com a imagem bem grandona-->
+        
+        <!--O header vai conter a nav e o carrossel com a imagem bem grandona
         <section class="header">
-            <nav>
+            <nav>-->
 
-            </nav>
-            <div id="carousel">
-
+        <!--Section diagrama-->
+        <section class="diagrama">
+            <div class="container">
+                <img class="diagrama-img" src="./Assets/img/03Diagrama.png">
             </div>
         </section>
-        <!--Aqui é a segunda section com os textos-->
-        <section class="ecossistema">
-
-        </section>
-        <!--Aqui é a section do diagrama com as interseccões-->
-        <section class="diagrama">
-
-        </section>
-        <!--A section com fundo do foguete junto com os textos-->
-        <section class="foguetinho">
-
-        </section>
+        
         <!--Section com a balança de fundo-->
         <section class="startup">
-
+            <section class="startup-img">
+                <img src="./Assets/img/05BalancaOpcao1.png" alt="Imagem de uma balança com dois pesos: em um está escrito 'Grandes empresas', em outro está escrito 'Startups'">
+            </section>
+        <section class="startup-conteudo">
+            <div class="startup-texto">
+                <h2 class="startup-texto--titulo">Benefícios do programa de aceleração corporativa para startups</h2>
+                    <div class="startup-texto--linha">
+                        <hr class="linha-lateral">
+                    </div>
+                </div>
+                <div class="startup-itens">
+                    <p>Participe de mentorias, workshops e orientação personalizada</p>
+                    <p>Valide e refina seu modelo de negócio e proposta de valor</p>
+                    <p>Encontre oportunidades de negócios e potencialize os canais de distribuição com as maiores empresas do mercado nacional e global</p>
+                    <p>Desenvolva networking e credibilidade para a sua marca</p>
+                    <p>Ganhe visibilidade e melhore a chance de investimento no seu negócio</p>
+                </div>
+            </section>
         </section>
+
         <!--Section com os textos de inovação e os icones bonitinhos -->
         <section class="inovacao">
-
+            <p class="inovacao-texto--branco">Veja o que há de </p><p class="inovacao-texto--transparante">inovação no seu setor</p>
+            <div class="inovacao-linha">
+                <hr class="linha-central">
+            </div>
+            <div class="inovacao-icones">
+                <a href="http://"><img class="teste" src="./Assets/Icones do Inovação no seu Setor/01.svg" alt="icone de um gráfico de barras"></a>
+                <a href="http://"><img src="./Assets/Icones do Inovação no seu Setor/02.svg" alt="icone de uma maleta"></a>
+                <a href="http://"><img src="./Assets/Icones do Inovação no seu Setor/03.svg" alt="icone de um cofre de porquinho"></a>
+                <a href="http://"><img src="./Assets/Icones do Inovação no seu Setor/04.svg" alt="icone de um olho"></a>
+                <a href="http://"><img src="./Assets/Icones do Inovação no seu Setor/05.svg" alt="icone de um grafico de pizza"></a>
+            </div>
         </section>
+
         <!--Section do mindset de inovação-->
         <section class="mindset">
+            <p class="mindset-texto--branco">Como funciona nosso programa </p><p class="mindset-texto--transparente">de aceleração corporativa</p>
 
+            <div class="mindset-img">
+                <img src="./Assets/img/07FluxoOpcao1.png" alt="Imagem de um fluxograma">
+            </div>
         </section>
-        <section class= "parceiro">
 
+        <!--Section torne-se um parceiro-->
+        <section class= "parceiro" id="parceiros">
+            <div class="container">
+                <h5 class="parceiro-texto">Torne-se um </h5><br><p id="parceiro-transparente"> PARCEIRO LETS</p>
+                <hr id="divisor_parceiro">
+                <h4 class=" container font-italic" id="contato__informacao">Relacione-se com startups promissoras, fomente o empreendedorismo, e desenvolva o mindset de inovação em sua empresa, criando negócios e sinergias de maneira mais ágil</h4>
+            </div>
+            <div class="parceiro__informações">
+                <h3 class="font-italic font text-center parceiro-titulo">Fique Antenado</h3>
+                <p class="text-white font text-center parceiro-p font-italic ">Cadastre seu e-mail para saber mais sobre os próximos programas de aceleração</p>
+                <div class="form-row justify-content-center">
+                    <div class="alinharBotao form-group col-md-5 justify-content-center">
+                        <label for="inputAddress"></label>
+                        <input type="email" class="form-control bg-transparent " id='caixa-form' id="inputEmail4" placeholder="Email"><button type="submit" class="btn btn-primary btn-sm " id="botao-form">enviar</button>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="equipe">
 
+        <!--Section equipe-->
+        <section class="equipe" id="equipe">
+            <div class="container">
+                <h5 class=" equipe-texto">Conheça a </h5><br><p id="equipe-s"> NOSSA EQUIPE</p>
+                <hr id="divisor-equipe">
+                <div class="card-group">
+                    <div class="row mt-5">
+                        <div class="col-sm-3">
+                            <div class="card rounded">
+                                <img src="./Assets/img/photo-1558927298-26b8c6334021.jpg" class="card-img-top rounded" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card rounded">
+                                <img src="./Assets/img/photo-1528809217021-151305b50e55.jpg" class="card-img-top rounded" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card rounded">
+                                <img src="./Assets/img/photo-1533675937506-a2b8100a58c1.jpg" class="card-img-top rounded" alt="...">
+                            </div>
+                        </div> 
+                        <div class="col-sm-3">
+                            <div class="card rounded">
+                                <img src="./Assets/img/photo-1544507888-56d73eb6046e.jpg" class="card-img-top rounded" alt="...">
+                            </div>
+                        </div>  
+                        <!--
+                        <div class="col-sm-1">
+                            <div class="card rounded">
+                                <img src="./Assets/img/Capturar.PNG" class="card-img-top rounded" alt="...">
+                            </div>  
+                        </div>
+                        -->
+                    </div>
+                </div>  
+            </div>
         </section>
-        <section class="fale-conosco">
 
+        <!--Section fale conosco-->
+        <section class="fale-conosco fundo-fale-conosco" id="fale_conosco">
+            <form>
+                <h6 class="contato-texto">FALE </h6><br><p id="contato-s">CONOSCO</p> 
+                <hr id="divisor_contato">
+                <h5 class=" container font-italic" id="contato__informacao">Obrigado pelo interesse em se tornar parceiro da Lets. Preencha o formulário abaixo e entraremos em contato o quanto antes ou envie um Whatsapp para (11) 91234-5678 </h5>
+                <div class="container">
+                    <div class="form-row justify-content-center">
+                        <div class="form-group col-md-4  ">
+                            <label for="firstname"></label>
+                            <input type="text" class="form-control bg-transparent rounded-pill" id="first" placeholder="Nome">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="lastname"></label>
+                            <input type="text" class="form-control bg-transparent rounded-pill " id="last" placeholder="Sobrenome">
+                        </div>
+                    </div>
+                        <div class="form-row justify-content-center">
+                        <div class="form-group col-md-8 justify-content-center">
+                            <label for="inputAddress"></label>
+                            <input type="email" class="form-control bg-transparent rounded-pill " id="inputEmail4" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="form-group col-md-4">
+                            <label for="text"></label>
+                            <input type="text" class="form-control bg-transparent rounded-pill " id="text" placeholder="Cargo">
+                        </div>
+                    <div class="form-group col-md-4">
+                        <label for="text"></label>
+                        <input type="text" class="form-control bg-transparent rounded-pill " id="text" placeholder="Nome da Empresa">
+                    </div>
+                </div>
+                <div class="form-row align-items-center justify-content-center">
+                    <div class="form-group col-md-8">
+                    <div class="col-auto my-3">
+                        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                        <select class="custom-select mr-sm-5 bg-transparent rounded-pill " id="inlineFormCustomSelect">
+                        <option selected>Tipo de empresa</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                </div>
+                <div class="form-row justify-content-center">
+                    <div class="form-group col-md-6">
+                        <label for="exampleFormControlTextarea1" class="etiqueta">Como podemos te ajudar ?</label>
+                        <textarea class="form-control bg-transparent rounded-pill " id="exampleFormControlTextarea1" rows="3" ></textarea>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary rounded-pill font-italic" id='btn-verde'>enviar</button>
+                </div>
+            </form>
         </section>
-        <footer class="footer">
-    
+
+        <!--Section footer-->
+        <footer class="footer ">
+            <div class="container">
+                <div class="display">
+                    <div class="textos">
+                        <small class="footer-visite ">Visite a Lets</small><br>
+                        <small class="footer-endereco font-italic">Rua Cardeal Arcoverde 2365 - Pinheiros -<br>São Paulo 05407-003 </small>
+                    </div>
+                        <div class="icones">
+                        <a href="" class=""><img class="icon" src="./Assets/Icones do Footer/1LinkedIn.svg"></a>
+                        <a href="" class=""><img src="./Assets/Icones do Footer/2WhatsApp.svg"></a>
+                        <a href="" class=""><img src="./Assets/Icones do Footer/3Facebook.svg"></a>
+                        <a href="" class=""><img src="./Assets/Icones do Footer/4Instagram.svg"></a>
+                    </div>
+                </div>
+            </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="path/to/jquery.sliphover.min.js"></script>
     </body>
 </html>

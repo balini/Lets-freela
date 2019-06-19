@@ -1,7 +1,446 @@
-.logo{
-    width: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*Section diagrama*/
+
+.diagrama{
+    padding: 6% ;
+    background-image: url(../Assets/img/03.png);
+    background-position: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.diagrama-img{
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Section com a balança de fundo */
+
+.startup {
+    background-image: url('../Assets/img/05.png');  
+    background-size: contain;
+    background-position: left;
+    background-repeat: round;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color:#ffffff;
+}
+
+.startup-img {
+    width: 50%;
+}
+
+.startup-img img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.startup-conteudo {
+    width: 40%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.startup-texto {
+    width: 65%;
+}
+
+.startup-itens {
+    width: 65%;
+}
+
+.startup-itens p {
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.startup-texto--titulo {
+    font-weight: 700;
+    word-spacing: 0;
+    line-height: 30px;
+}
+
+.linha-lateral {
+    background-color: #00cf65;
+    max-width: 8.5vw;
+    padding: 1.5px;
+    margin: 30px 0 30px auto;
+} 
+
+
+/* Section com os textos de inovação e os icones bonitinhos */
+
+.inovacao {
+    background-image: url('../Assets/img/06.png');  
+    background-size: cover;
+    min-height: 70vh;
+    background-position: round;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.inovacao p {
+    text-align: center;
+}
+
+.inovacao-texto--branco {
+    margin: 0;
+    color: #ffffff;
+}
+
+.inovacao-texto--transparante  {
+    margin: 0;
+    font-weight: 800;
+    line-height: 30px;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+    -webkit-text-stroke: 1px white;
+}
+
+.linha-central {
+    background-color: #00cf65;
+    width: 8.5vw;
+    padding: 1.5px; 
+    margin-top: 30px;
+}
+
+.inovacao-icones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.inovacao-icones img {
+    width: 100%;
+    max-width: 5vw;
+    margin: 50px 12px 0 12px;
+    -webkit-transition: margin-top 0.5s;
+    -moz-transition: margin-top 0.5s;
+    transition: margin-top 0.5s
+}
+
+.inovacao-icones img:hover {
+    margin-top: 20px;
+}
+
+
+/* Section do mindset de inovação */
+
+.mindset {
+    background-image: url('../Assets/img/07.png');  
+    background-size: cover;
+    min-height: 130vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mindset-texto--branco {
+    margin: 0;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.mindset-texto--transparente {
+    margin: 0;
+    -webkit-text-stroke: 1px white;
+    font-weight: 800;
+    line-height: 30px;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+}
+
+.mindset-img {
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.mindset-img img {
+    width: 100%;
+    max-width: 900px;
+}
+
+/*Section torne-se um parceiro*/
+
+#parceiros , #equipe, #fale_conosco {
+    padding-top:8%; 
+    padding-bottom:5%;
+}
+
+.parceiro{
+    background-image: url(../Assets/img/08.png)
+}
+.parceiro-titulo{
+    color:#00cf65;
+}
+.parceiro__informações{
+    margin-top: 10%; 
+}
+
+.parceiro-texto, .equipe-texto, .contato-texto{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    color: #ffffff;
+}
+#parceiro-transparente, #equipe-s, #contato-s{
+    margin: 0;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-weight: 800;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+    font-weight: 800;
+    line-height: 3px;
+    opacity: 0.45;
+    font-size: 50px;
+}
+
+#caixa-form{
+    border-radius: 20px 0 0 20px;
+    margin-right: 0;
+}
+#botao-form{
+    background-color: #00cf65;
+    border: none;
+    color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    margin-left: 0;
+    height: 38px;
+    width: 100px;
+}
+
+.alinharBotao {
+    display: flex;
+}
+
+#divisor_parceiro , #divisor_contato, #divisor-equipe{
+    background-color: #00cf65;
+    width: 8.5vw;
+    padding: 1.5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 42px auto 42px auto;
+}
+
+.divisor {
+    width:60px; 
+    height: 10px;
+    color: #00cf65; 
+}
+
+#contato__informacao{
+    width: 61%;
+    text-align: center;
+    color: #ffffff;
+}
+#btn-verde{
+    background-color: #00cf65;
+    border: none;
+    color: #ffffff;
+    width: 20%;     
+}
+.etiqueta{
+    color: #586f7a
+}
+form input {
+    color:#586f7a;
+}
+
+/*Section equipe*/
+.equipe {
+    width: 100%;
+    height: 100%; 
+    background-image: url('../Assets/img/09.png')
+}
+
+/*Section fale conosco*/
+
+.fundo-fale-conosco{
+    background-image: url('../Assets/img/10.png');
+}
+
+/*Section footer*/
+footer{
+    padding-top: 3%;
+    padding-bottom: 3%; 
+}
+.footer{
+    background-color: #0e181d;
+}
+.icon{
+    color: #586f7a;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-visite{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#00cf65;
+}
+.footer-endereco{
+    color:  #556b76;
+    width: 10px;   
 }
 
 .footer  img{
-    width: 10px; 
+    width: 40px; 
+}
+
+@media (max-width: 1040px) {
+    .linha-lateral {
+        max-width: 15vw;
+    }
+    
+    .startup {
+        flex-direction: column-reverse;
+    }
+    
+    .startup-img {
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .startup-img img {
+        width: 100%;
+        max-width: 900px;
+    }
+    
+    .startup-conteudo {
+        width: 100%;
+        text-align: right;
+    }
+    
+    .startup-texto, .startup-itens {
+        margin: 20px auto 10px auto;
+    } 
+    
+    .inovacao-icones img {
+        max-width: 8vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .inovacao-icones img {
+        max-width: 10vw;
+    }
+}
+
+@media (max-width: 632px) {
+    .mindset-texto--transparente {
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 550px) {
+    .diagrama-img{
+        width: 200px;
+    }
+    .inovacao p {
+        line-height: 45px;
+    }
+    .inovacao-icones img {
+        max-width: 12vw;
+    }
+    
+    .inovacao-texto--branco, .inovacao-texto--transparante, .mindset-texto--branco, .mindset-texto--transparente, #parceiro-transparente, #equipe-s{
+        font-size: 32px;
+    }
+
+    .display{
+        flex-direction: column; 
+    }
+    .icones{
+        margin-top:2%;
+    }
+
+    .textos{
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 420px){
+    .card{
+        margin-left: 9%;
+        width: 300px; 
+        margin-bottom: 9%;
+    }
+}
+
+@media(max-width: 720px){
+    .card{
+        margin-left: 20%;
+        width: 200px; 
+        margin-bottom: 9%;
+    }
 }
