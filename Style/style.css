@@ -1,7 +1,98 @@
-.logo{
-    width: 10px;
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+#parceiros , #equipe, #fale_conosco {
+    padding-top:8%; 
+    padding-bottom:5%;
+}
+
+footer{
+    padding-top: 5%; 
+}
+
+.parceiro{
+    background-image: url(../Assets/img/08.png)
+}
+.parceiro__informações{
+    margin-top: 5%; 
+}
+
+#caixa-form{
+    border-radius: 20px 0 0 20px;
+    margin-right: 0;
+}
+#botao-form{
+    background-color: #00cf65;
+    color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    margin-left: 0;
+}
+
+#divisor_parceiro , #divisor_contato, #divisor-equipe{
+    width: 19%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 6px solid #00cf65;
+}
+
+
+.divisor {
+    width:60px; 
+    height: 10px;
+    color: #00cf65; 
+}
+
+#contato__informacao{
+    width: 50%;
+    color:#ffffff;
+    font-weight: bold; 
+}
+#btn-verde{
+    background-color: #00cf65;
+    color: #ffffff;
+}
+
+form input {
+    color:#586f7a;
+}
+
+
+.equipe {
+    width: 100%;
+    height: 100%; 
+    background-image: url('../Assets/img/09.png')
+}
+.footer{
+    background-color: #0e181d;
+}
+.icon{
+    color: #586f7a;
 }
 
 .footer  img{
-    width: 10px; 
+    width: 40px; 
+}
+
+.fundo{
+    background-image: url('../Assets/img/10.png');
+}
+
+
+@media(max-width: 420px){
+    .card{
+        margin-left: 9%;
+        width: 300px; 
+        margin-bottom: 9%;
+    }
+}
+
+@media(max-width: 720px){
+    .card{
+        margin-left: 20%;
+        width: 200px; 
+        margin-bottom: 9%;
+    }
+
 }
