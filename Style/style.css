@@ -32,7 +32,7 @@ a {
 .diagrama-img{
     align-items: center;
     width: 100%;
-    max-width: 900px;
+    max-width: 56.25rem;
 }
 
 /*Section foguete*/
@@ -55,7 +55,7 @@ a {
 .beneficios-titulo{
     font-weight: 700;
     word-spacing: 0;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .beneficios-texto{
@@ -65,14 +65,11 @@ a {
 #divisor-beneficios{
     background-color: #00cf65;
     width: 8.5vw;
-    padding: 1.5px;
+    padding: 0.0625rem;
     align-items: left;
     justify-content: left;
     text-align: left;
-    margin: 0 auto;
-    margin-top: 17px;
-    margin-bottom: 52px;
-    margin-left: 0;
+    margin-top: 1.063rem auto 3.25rem auto;
 }
 
 #tech{
@@ -80,7 +77,7 @@ a {
 }
 
 .beneficios-paragrafos p{
-    line-height: 18px;
+    line-height: 1.125rem;
     font-weight: 600;
 }
 
@@ -106,7 +103,7 @@ a {
 
 .startup-img img {
     width: 100%;
-    max-width: 900px;
+    max-width: 56.25rem;
 }
 
 .startup-conteudo {
@@ -124,21 +121,21 @@ a {
 }
 
 .startup-itens p {
-    line-height: 18px;
+    line-height: 1.125rem;
     font-weight: 600;
 }
 
 .startup-texto--titulo {
     font-weight: 700;
     word-spacing: 0;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .linha-lateral {
     background-color: #00cf65;
     max-width: 8.5vw;
-    padding: 1.5px;
-    margin: 30px 0 30px auto;
+    padding: 0.0625rem;
+    margin: 1.875rem 0 1.875rem auto;
 } 
 
 
@@ -150,7 +147,7 @@ a {
     min-height: 70vh;
     background-position: round;
     background-repeat: no-repeat;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     display: -webkit-box;
@@ -180,18 +177,18 @@ a {
 .inovacao-texto--transparante  {
     margin: 0;
     font-weight: 800;
-    line-height: 30px;
+    line-height: 1.875rem;
     opacity:0.45;
     -moz-opacity: 0.45;
     filter: alpha(opacity=45);
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.0625rem white;
 }
 
 .linha-central {
     background-color: #00cf65;
     width: 8.5vw;
-    padding: 1.5px; 
-    margin-top: 30px;
+    padding: 0.0625rem; 
+    margin-top: 1.875rem;
 }
 
 .inovacao-icones {
@@ -206,14 +203,14 @@ a {
 .inovacao-icones img {
     width: 100%;
     max-width: 5vw;
-    margin: 50px 12px 0 12px;
+    margin:  3.125rem 0.75rem 0 0.75rem;
     -webkit-transition: margin-top 0.5s;
     -moz-transition: margin-top 0.5s;
     transition: margin-top 0.5s
 }
 
 .inovacao-icones img:hover {
-    margin-top: 20px;
+    margin-top:  1.25rem;
 }
 
 
@@ -225,7 +222,7 @@ a {
     min-height: 130vh;
     background-position: center;
     background-repeat: no-repeat;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -234,27 +231,27 @@ a {
 .mindset-texto--branco {
     margin: 0;
     color: #ffffff;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .mindset-texto--transparente {
     margin: 0;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.0625rem white;
     font-weight: 800;
-    line-height: 30px;
+    line-height: 1.875rem;
     opacity:0.45;
     -moz-opacity: 0.45;
     filter: alpha(opacity=45);
 }
 
 .mindset-img {
-    margin-top: 100px;
-    padding: 40px;
+    margin-top: 6.25rem;
+    padding: 2.5rem;
 }
 
 .mindset-img img {
     width: 100%;
-    max-width: 900px;
+    max-width: 56.25rem;
 }
 
 /*Section torne-se um parceiro*/
@@ -275,7 +272,7 @@ a {
 }
 
 .parceiro-texto, .equipe-texto, .contato-texto{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     display: -webkit-box;
@@ -297,29 +294,29 @@ a {
 #parceiro-transparente, #equipe-s, #contato-s{
     margin: 0;
     text-align: center;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.0625rem white;
     font-weight: 800;
     opacity:0.45;
     -moz-opacity: 0.45;
     filter: alpha(opacity=45);
     font-weight: 800;
-    line-height: 3px;
+    line-height: 0.1875rem;
     opacity: 0.45;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 #caixa-form{
-    border-radius: 20px 0 0 20px;
+    border-radius: 1.25rem 0 0 1.25rem;
     margin-right: 0;
 }
 #botao-form{
     background-color: #00cf65;
     border: none;
     color: #ffffff;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 1.25rem 1.25rem 0;
     margin-left: 0;
-    height: 38px;
-    width: 100px;
+    height: 2.375rem;
+    width:  6.25rem;
 }
 
 #botao-form:hover {
@@ -337,16 +334,16 @@ a {
 #divisor_parceiro , #divisor_contato, #divisor-equipe{
     background-color: #00cf65;
     width: 8.5vw;
-    padding: 1.5px;
+    padding: 0.0625rem;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 42px auto 42px auto;
+    margin: 2.625rem auto 2.625rem auto;
 }
 
 .divisor {
-    width:60px; 
-    height: 10px;
+    width:3.75rem; 
+    height:0.625rem;
     color: #00cf65; 
 }
 
@@ -390,7 +387,7 @@ form input {
 }
 #text-efect {
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -436,7 +433,7 @@ footer{
     border-radius: 5%;
 }
 .icones{
-    font-size: 44px; 
+    font-size: 2.75rem; 
 }
 
 .icon:hover{
@@ -461,11 +458,11 @@ footer{
 }
 .footer-endereco{
     color:  #556b76;
-    width: 10px;   
+    width: 0.625rem;   
 }
 
 .footer  img{
-    width: 40px; 
+    width: 2.5rem; 
 }
 
 @media (max-width: 1040px) {
@@ -484,7 +481,7 @@ footer{
     
     .startup-img img {
         width: 100%;
-        max-width: 900px;
+        max-width: 56.25rem;
     }
     
     .startup-conteudo {
@@ -493,7 +490,7 @@ footer{
     }
     
     .startup-texto, .startup-itens {
-        margin: 20px auto 10px auto;
+        margin:  1.25rem auto 0.625rem auto;
     } 
     
     .inovacao-icones img {
@@ -509,23 +506,23 @@ footer{
 
 @media (max-width: 632px) {
     .mindset-texto--transparente {
-        line-height: 45px;
+        line-height: 2.813rem;
     }
 }
 
 @media (max-width: 550px) {
     .diagrama-img{
-        width: 200px;
+        width: 12.5rem;
     }
     .inovacao p {
-        line-height: 45px;
+        line-height: 2.813rem;
     }
     .inovacao-icones img {
         max-width: 12vw;
     }
     
     .inovacao-texto--branco, .inovacao-texto--transparante, .mindset-texto--branco, .mindset-texto--transparente, #parceiro-transparente, #equipe-s{
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .display{
