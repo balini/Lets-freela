@@ -6,6 +6,10 @@
     outline: none;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -154,10 +158,16 @@ a {
 }
 
 .inovacao-icones img {
-    /* width: 4.5vw; */
     width: 100%;
     max-width: 5vw;
     margin: 50px 12px 0 12px;
+    -webkit-transition: margin-top 0.5s;
+    -moz-transition: margin-top 0.5s;
+    transition: margin-top 0.5s
+}
+
+.inovacao-icones img:hover {
+    margin-top: 20px;
 }
 
 
