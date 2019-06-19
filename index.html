@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="./Assets/logo-lets.png" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
         <link rel=stylesheet href="./Style/style.css">
         <link rel = stylesheet href="./Style/bootstrap.min.css">
         <title>Lets Ventures</title>
@@ -20,7 +22,24 @@
                 <img class="diagrama-img" src="./Assets/img/03Diagrama.png">
             </div>
         </section>
-        
+        <!--Section do foguete-->
+        <section class="foguete">
+            <div class="container">
+                <div class="textos-beneficios">
+                    <div class="beneficios-titulo text-white">
+                        <h3 class="beneficios-titulo">Beneficios do programa de aceleração corporativa para grandes empresas</h3>
+                    </div>
+                    <hr id='divisor-beneficios'>
+                    <div class="beneficios-paragrafos text-white">
+                        <p>Acelere a estratégia de inovação e conexão com startups e entenda melhor as novas tendencias do mercado <span id="tech">#tech</span></p>
+                        <p>Inove como uma Startup! Prototipe, teste e valide rapidamente um novo produto, serviço ou uma experiência digital</p>
+                        <p>Potencialize e oxigene  a cultura da inovação, com mais adesão, engajamento e melhores resultados.</p>
+                        <p>Participe de mentorias e workshops com as startups</p>
+                        <p>Aumente o contato da sua marca e atraia novos talentos do ecossistema de Startups</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--Section com a balança de fundo-->
         <section class="startup">
             <section class="startup-img">
@@ -87,34 +106,45 @@
                 <h5 class=" equipe-texto">Conheça a </h5><br><p id="equipe-s"> NOSSA EQUIPE</p>
                 <hr id="divisor-equipe">
                 <div class="card-group">
-                    <div class="row mt-5">
-                        <div class="col-sm-3">
-                            <div class="card rounded">
+                    <div class="row mt-4">
+                        <div class="col-sm-3" id="card-efect">
+                            <div class="card rounded" >
                                 <img src="./Assets/img/photo-1558927298-26b8c6334021.jpg" class="card-img-top rounded" alt="...">
+                                <div class="overlay">
+                                    <div class="text-white" id="text-efect">Mariana <br> Financeiro</div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3" id="card-efect">
                             <div class="card rounded">
                                 <img src="./Assets/img/photo-1528809217021-151305b50e55.jpg" class="card-img-top rounded" alt="...">
+                                <div class="overlay">
+                                    <div class="text-white" id="text-efect">Mariana <br> Financeiro</div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3" id="card-efect">
                             <div class="card rounded">
                                 <img src="./Assets/img/photo-1533675937506-a2b8100a58c1.jpg" class="card-img-top rounded" alt="...">
+                                <div class="overlay">
+                                    <div class="text-white" id="text-efect">Mariana <br> Financeiro</div>
+                                </div>
                             </div>
                         </div> 
-                        <div class="col-sm-3">
+                        <div class="col-sm-3" id="card-efect">
                             <div class="card rounded">
                                 <img src="./Assets/img/photo-1544507888-56d73eb6046e.jpg" class="card-img-top rounded" alt="...">
+                                <div class="overlay">
+                                    <div class="text-white" id="text-efect">Mariana <br> Financeiro</div>
+                                </div>
                             </div>
                         </div>  
-                        <!--
-                        <div class="col-sm-1">
+                        <!--<div class="col-sm-2" id="correcao">
                             <div class="card rounded">
                                 <img src="./Assets/img/Capturar.PNG" class="card-img-top rounded" alt="...">
                             </div>  
+                            -->
                         </div>
-                        -->
                     </div>
                 </div>  
             </div>
@@ -184,10 +214,10 @@
                         <small class="footer-endereco font-italic">Rua Cardeal Arcoverde 2365 - Pinheiros -<br>São Paulo 05407-003 </small>
                     </div>
                         <div class="icones">
-                        <a href="" class=""><img class="icon" src="./Assets/Icones do Footer/1LinkedIn.svg"></a>
-                        <a href="" class=""><img src="./Assets/Icones do Footer/2WhatsApp.svg"></a>
-                        <a href="" class=""><img src="./Assets/Icones do Footer/3Facebook.svg"></a>
-                        <a href="" class=""><img src="./Assets/Icones do Footer/4Instagram.svg"></a>
+                        <a href="" class="icon"><i class="fab fa-linkedin" id="icon"></i></a>
+                        <a href="" class="icon"><i class="fab fa-whatsapp-square"></i></a>
+                        <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" class="icon"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>

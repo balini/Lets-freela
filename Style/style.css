@@ -32,11 +32,49 @@ a {
     align-items: center;
 }
 
+/*Section foguete*/
 
+.foguete{
+    background-image: url(../Assets/img/04.png);
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0; 
+    padding-bottom: 5%; 
+}
 
+.textos-beneficios{
+    padding-top: 5%;
+    width: 40%;
+    text-align: left;
+    margin-right: auto;
+}
 
+.beneficios-titulo{
+    font-weight: 700;
+    word-spacing: 0;
+    line-height: 30px;
+}
 
+.beneficios-texto{
+    width: 65%;
+}
 
+#divisor-beneficios{
+    background-color: #00cf65;
+    width: 8.5vw;
+    padding: 1.5px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 17px;
+    margin-bottom: 52px;
+    margin-left: 0;
+}
+
+#tech{
+    color:  #00cf65;
+}
 
 /* Section com a balança de fundo */
 
@@ -297,9 +335,14 @@ a {
     color: #ffffff;
 }
 #btn-verde{
+    border:none;
     background-color: #00cf65;
     color: #ffffff;
     width: 20%;     
+}
+
+#btn-verde:hover{
+    background-color: #02fa7a;
 }
 .etiqueta{
     color: #586f7a
@@ -314,6 +357,39 @@ form input {
     height: 100%; 
     background-image: url('../Assets/img/09.png')
 }
+
+#card-efect{
+    position: relative;
+    width: 50%;
+}
+
+#card-efect:hover .overlay {
+    opacity: 0.75;
+}
+#text-efect {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #28414d;
+}
+
+
+
 
 /*Fale Conosco*/
 
@@ -331,6 +407,19 @@ footer{
 }
 .icon{
     color: #586f7a;
+    border-radius: 5%;
+}
+.icones{
+    font-size: 44px; 
+}
+
+.icon:hover{
+    color:#00cf65;
+    transition: 0.5s;
+}
+
+#icon{
+    border-radius: 4%; 
 }
 
 .display{
@@ -424,20 +513,23 @@ footer{
         text-align: center;
     }
 
+    .textos-beneficios{
+        text-align: center; 
+        width: 100%;
+    }
+
 }
 
 @media(max-width: 420px){
     .card{
-        margin-left: 9%;
-        width: 300px; 
+        width: 100%; 
         margin-bottom: 9%;
     }
 }
 
 @media(max-width: 720px){
     .card{
-        margin-left: 20%;
-        width: 200px; 
+        width: 100%; 
         margin-bottom: 9%;
     }
 }
