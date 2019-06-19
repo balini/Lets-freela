@@ -412,6 +412,18 @@ footer{
     .inovacao-texto--branco, .inovacao-texto--transparante, .mindset-texto--branco, .mindset-texto--transparente, #parceiro-transparente, #equipe-s{
         font-size: 32px;
     }
+
+    .display{
+        flex-direction: column; 
+    }
+    .icones{
+        margin-top:2%;
+    }
+
+    .textos{
+        text-align: center;
+    }
+
 }
 
 @media(max-width: 420px){
