@@ -19,7 +19,7 @@ a {
 
 .startup {
     background-image: url('../Assets/img/05.png');  
-    background-size: cover;
+    background-size: contain;
     background-position: left;
     background-repeat: round;
     display: -webkit-box;
@@ -68,7 +68,7 @@ a {
 .linha-lateral {
     background-color: #00cf65;
     max-width: 8.5vw;
-    height: 0.3vh;
+    padding: 1.5px;
     margin: 30px 0 30px auto;
 } 
 
@@ -99,6 +99,10 @@ a {
             justify-content: center;
 }
 
+.inovacao p {
+    text-align: center;
+}
+
 .inovacao-texto--branco {
     margin: 0;
     color: #ffffff;
@@ -116,8 +120,8 @@ a {
 
 .linha-central {
     background-color: #00cf65;
-    width: 8.5vw;
-    height: 0.3vh;  
+     width: 8.5vw;
+    padding: 1.5px; 
     margin-top: 30px;
 }
 
@@ -176,4 +180,63 @@ a {
 .mindset-img img {
     width: 100%;
     max-width: 900px;
+}
+
+@media (max-width: 1040px) {
+    .linha-lateral {
+        max-width: 15vw;
+    }
+
+    .startup {
+        flex-direction: column-reverse;
+    }
+
+    .startup-img {
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .startup-img img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .startup-conteudo {
+        width: 100%;
+        text-align: right;
+    }
+
+    .startup-texto, .startup-itens {
+        margin: 20px auto 10px auto;
+    } 
+
+    .inovacao-icones img {
+        max-width: 8vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .inovacao-icones img {
+        max-width: 10vw;
+    }
+}
+
+@media (max-width: 632px) {
+    .mindset-texto--transparente {
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 550px) {
+    .inovacao p {
+        line-height: 45px;
+    }
+
+    .inovacao-icones img {
+        max-width: 12vw;
+    }
+
+    .inovacao-texto--branco, .inovacao-texto--transparante, .mindset-texto--branco, .mindset-texto--transparente {
+        font-size: 32px;
+    }
 }
