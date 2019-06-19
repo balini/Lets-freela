@@ -79,6 +79,11 @@ a {
     color:  #00cf65;
 }
 
+.beneficios-paragrafos p{
+    line-height: 18px;
+    font-weight: 600;
+}
+
 /* Section com a balança de fundo */
 
 .startup {
@@ -317,8 +322,16 @@ a {
     width: 100px;
 }
 
+#botao-form:hover {
+    background-color: #67eea8;
+}
+
 .alinharBotao {
     display: flex;
+}
+
+.newsletter {
+    width: 100%;
 }
 
 #divisor_parceiro , #divisor_contato, #divisor-equipe{
@@ -351,7 +364,7 @@ a {
 }
 
 #btn-verde:hover{
-    background-color: #02fa7a;
+    background-color: #67eea8;
 }
 .etiqueta{
     color: #586f7a
@@ -398,12 +411,16 @@ form input {
 }
 
 
-
-
 /*Fale Conosco*/
 
 .fundo-fale-conosco{
     background-image: url('../Assets/img/10.png');
+}
+
+.alinhaEtiqueta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*Section footer*/
