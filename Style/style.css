@@ -353,12 +353,6 @@ footer{
     width: 40px; 
 }
 
-
-
-
-
-
-
 @media (max-width: 1040px) {
     .linha-lateral {
         max-width: 15vw;
