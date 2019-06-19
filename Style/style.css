@@ -21,6 +21,7 @@ a {
 }
 
 /*Section diagrama*/
+
 .diagrama{
     padding: 6% ;
     background-image: url(../Assets/img/03.png);
@@ -30,6 +31,8 @@ a {
 }
 .diagrama-img{
     align-items: center;
+    width: 100%;
+    max-width: 900px;
 }
 
 /*Section foguete*/
@@ -306,9 +309,16 @@ a {
 }
 #botao-form{
     background-color: #00cf65;
+    border: none;
     color: #ffffff;
     border-radius: 0 20px 20px 0;
     margin-left: 0;
+    height: 38px;
+    width: 100px;
+}
+
+.alinharBotao {
+    display: flex;
 }
 
 #divisor_parceiro , #divisor_contato, #divisor-equipe{
@@ -318,9 +328,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
-    margin-top:30px;
-    margin-bottom: 42px;
+    margin: 42px auto 42px auto;
 }
 
 .divisor {
@@ -337,6 +345,7 @@ a {
 #btn-verde{
     border:none;
     background-color: #00cf65;
+    border: none;
     color: #ffffff;
     width: 20%;     
 }
@@ -397,7 +406,7 @@ form input {
     background-image: url('../Assets/img/10.png');
 }
 
-/*Footer*/
+/*Section footer*/
 footer{
     padding-top: 3%;
     padding-bottom: 3%; 
