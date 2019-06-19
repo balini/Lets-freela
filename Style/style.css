@@ -1,7 +1,242 @@
-.logo{
-    width: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
 }
 
-.footer  img{
-    width: 10px; 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* Section com a balança de fundo */
+
+.startup {
+    background-image: url('../Assets/img/05.png');  
+    background-size: contain;
+    background-position: left;
+    background-repeat: round;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color:#ffffff;
+}
+
+.startup-img {
+    width: 50%;
+}
+
+.startup-img img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.startup-conteudo {
+    width: 40%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.startup-texto {
+    width: 65%;
+}
+
+.startup-itens {
+    width: 65%;
+}
+
+.startup-itens p {
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.startup-texto--titulo {
+    font-weight: 700;
+    word-spacing: 0;
+    line-height: 30px;
+}
+
+.linha-lateral {
+    background-color: #00cf65;
+    max-width: 8.5vw;
+    padding: 1.5px;
+    margin: 30px 0 30px auto;
+} 
+
+
+/* Section com os textos de inovação e os icones bonitinhos */
+
+.inovacao {
+    background-image: url('../Assets/img/06.png');  
+    background-size: cover;
+    min-height: 70vh;
+    background-position: round;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.inovacao p {
+    text-align: center;
+}
+
+.inovacao-texto--branco {
+    margin: 0;
+    color: #ffffff;
+}
+
+.inovacao-texto--transparante {
+    margin: 0;
+    font-weight: 800;
+    line-height: 30px;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+    -webkit-text-stroke: 1px white;
+}
+
+.linha-central {
+    background-color: #00cf65;
+     width: 8.5vw;
+    padding: 1.5px; 
+    margin-top: 30px;
+}
+
+.inovacao-icones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.inovacao-icones img {
+    /* width: 4.5vw; */
+    width: 100%;
+    max-width: 5vw;
+    margin: 50px 12px 0 12px;
+}
+
+
+/* Section do mindset de inovação */
+
+.mindset {
+    background-image: url('../Assets/img/07.png');  
+    background-size: cover;
+    min-height: 130vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mindset-texto--branco {
+    margin: 0;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.mindset-texto--transparente {
+    margin: 0;
+    -webkit-text-stroke: 1px white;
+    font-weight: 800;
+    line-height: 30px;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+}
+
+.mindset-img {
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.mindset-img img {
+    width: 100%;
+    max-width: 900px;
+}
+
+@media (max-width: 1040px) {
+    .linha-lateral {
+        max-width: 15vw;
+    }
+
+    .startup {
+        flex-direction: column-reverse;
+    }
+
+    .startup-img {
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .startup-img img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .startup-conteudo {
+        width: 100%;
+        text-align: right;
+    }
+
+    .startup-texto, .startup-itens {
+        margin: 20px auto 10px auto;
+    } 
+
+    .inovacao-icones img {
+        max-width: 8vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .inovacao-icones img {
+        max-width: 10vw;
+    }
+}
+
+@media (max-width: 632px) {
+    .mindset-texto--transparente {
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 550px) {
+    .inovacao p {
+        line-height: 45px;
+    }
+
+    .inovacao-icones img {
+        max-width: 12vw;
+    }
+
+    .inovacao-texto--branco, .inovacao-texto--transparante, .mindset-texto--branco, .mindset-texto--transparente {
+        font-size: 32px;
+    }
 }
