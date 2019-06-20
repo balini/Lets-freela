@@ -13,6 +13,7 @@
     </head>
     <body>
 
+
     <!--NAV--->
     <main id="linkHome">
 
@@ -32,18 +33,69 @@
                         <li><a href="#linkContato">Contato</a></li>
                     </ul>
                 </nav>
+
+    <!--O header vai conter a nav e o carrossel com a imagem bem grandona--->
+    <section>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="#">
+                <img src="./Assets/logo-lets.png" alt="Logo da Aceleradora Corporativa Lets Ventures">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ecossistemaMenu">Nosso Ecossistema</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Como Funciona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+                </ul>
+
             </div>
-        </header>
+        </nav>
     </section>
 
     <!--Carrousel-->
     <section>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">            
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./Assets/img/01Slide_01.png" class="d-block w-100" alt="...">
+                        <img class="d-block w-100" src="./Assets/img/01Slide_01.png"     alt="Primeiro Slide">
                     </div>
+                 
                 </div>
+            </div>
+    
+        </section>
+
+        <!--Section ecossistema-->
+        <section class="ecossistema">
+                <div class="textos-ecossistema">
+                    <h1 class="ecossistemaTitulo"> Nosso </h6><br><p id="ecossistemaTransparente">Ecossistema</p></h1>
+                    <hr id="divisor-ecossistema">
+                </div>
+                    <p class="ecossistemaTexto">Somos parte de um ecossistema de inovação formado pelo Polinize, nosso hub digital de startups; Metrics, nosso sistema de avaliação de startups e Lets, nosso programa de aceleração corporativa</p>
             </div>
         </section>
 
@@ -176,18 +228,17 @@
                         </div>
                         <div class="col-sm-3" id="card-efect">
                             <div class="card rounded">
-                                <img src="./Assets/img/photo-1533675937506-a2b8100a58c1.jpg" class="card-img-top rounded" alt="...">
+                                <img src="./Assets/img/photo-1533675937506-a2b8100a58c1.jpg" class="card-img-top rounded " alt="...">
                                 <div class="overlay">
                                     <div class="text-white" id="text-efect"><p class="texto-grande">Mariana</p><p class="texto-pequeno">Financeiro</p></div>
                                 </div>
                             </div>
                         </div> 
                         <div class="col-sm-3" id="card-efect">
-                            <div class="card rounded">
-                                <img src="./Assets/img/photo-1544507888-56d73eb6046e.jpg" class="card-img-top rounded" alt="...">
-                                <div class="overlay">
-                                    <div class="text-white" id="text-efect"><p class="texto-grande">Mariana</p><p class="texto-pequeno">Financeiro</p></div>
-                                </div>
+                            <div class="card rounded ">
+                                <div class="card-body " id="fundo-card">
+                                <div class="text-black card-text card-titulo " ><p class="mais texto-grande"><i class="fas fa-plus"></i></p><p class="veja-mais texto-pequeno">Ver mais no linkedin</p></div>
+                            </div>
                             </div>
                         </div>  
                         </div>
@@ -208,33 +259,33 @@
                 <h5 class=" container font-italic" id="contato__informacao">Obrigado pelo interesse em se tornar parceiro da Lets. Preencha o formulário abaixo e entraremos em contato o quanto antes ou envie um Whatsapp para (11) 91234-5678 </h5>
                 <div class="container">
                     <div class="form-row justify-content-center">
-                        <div class="form-group col-md-4  ">
+                        <div class="form-group col-md-3  ">
                             <label for="firstname"></label>
                             <input type="text" class="form-control bg-transparent rounded-pill" id="first" placeholder="Nome">
                         </div>
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-3">
                             <label for="lastname"></label>
                             <input type="text" class="form-control bg-transparent rounded-pill " id="last" placeholder="Sobrenome">
                         </div>
                     </div>
                         <div class="form-row justify-content-center">
-                        <div class="form-group col-md-8 justify-content-center">
+                        <div class="form-group col-md-6 justify-content-center">
                             <label for="inputAddress"></label>
                             <input type="email" class="form-control bg-transparent rounded-pill " id="inputEmail4" placeholder="Email">
                         </div>
                     </div>
                     <div class="form-row justify-content-center">
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-3">
                             <label for="text"></label>
                             <input type="text" class="form-control bg-transparent rounded-pill " id="text" placeholder="Cargo">
                         </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-3">
                         <label for="text"></label>
                         <input type="text" class="form-control bg-transparent rounded-pill " id="text" placeholder="Nome da Empresa">
                     </div>
                 </div>
                 <div class="form-row align-items-center justify-content-center">
-                    <div class="form-group col-md-8">
+                    <div class="form-group col-md-5">
                     <div class="col-auto my-3">
                         <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                         <select class="custom-select mr-sm-5 bg-transparent rounded-pill " id="inlineFormCustomSelect">
@@ -247,7 +298,7 @@
                 </div>
                 </div>
                 <div class="form-row justify-content-center">
-                    <div class="alinhaEtiqueta form-group col-md-6">
+                    <div class="alinhaEtiqueta form-group col-md-5">
                         <label for="exampleFormControlTextarea1"><p class="etiqueta">Como podemos te ajudar?</p></label>
                         <textarea class="form-control bg-transparent rounded-pill " id="exampleFormControlTextarea1" rows="3" ></textarea>
                     </div>
@@ -277,6 +328,7 @@
                 </div>
             </div>
         </footer>
+        <script src="Scripts/main.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="path/to/jquery.sliphover.min.js"></script>

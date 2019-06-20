@@ -22,33 +22,78 @@ a {
 
 /*Navbar*/
 
+
 .navImg img {
     margin-top: 10px;
 }
 
 .navLogo img{
+.navbar {
+    /* top: 0; */
+    /* width: 100%; */
+    background: #13191d;
+    padding: 20px 0 !important;
+    z-index: 99;
+    text-align: right;
+
+}
+
+
+
+.navbar-brand img{
+    width: 50%;
+    margin-right: 60px;
+    
+/* position: absolute; */
+    /* position: relative; */
+    /* float: left; */
+}
+
+/* .navLogo img{
+
     width: 15%;
     position: relative;
     float: left;
+} */
+
+/* .navMenu {
+    text-align: right;
+} */
+
+.navbar-nav a{
+    color: #ffffff !important;
+    padding-right: 0rem;
+    margin-right: 10px;
+    margin-left: 50px;
+    font-size: 14px;
+
 }
 
-.navMenu {
-	text-align: right;
+
+
+/* /* .navbar-nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px; */
+
+
+/* } */ 
+
+.navbar-nav ul li a{
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+   
+
+
 }
 
-.navMenu ul li {
-	display: inline-block;
-	margin-left: 25px;
-	margin-top: 20px;
+.collapse a{
+    display: flex;
+    align-items: flex-end;
 }
-
-.navMenu ul li a {
-    color: #ffffff; 
-	letter-spacing: .1em;
-	font-size: 14px;
-	line-height: 20px;
-	padding: 10px 0;
-}
+    
 
 /*Header*/
 
@@ -63,12 +108,15 @@ a {
 
 
 .carousel-item{
-    margin-top: 85px;
-    text-align: center;
+    /* margin-top: px; */
+    /* text-align: center;
     /* height: 500px; */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif; */ 
+    width: 100%;
+
 }
 
 /*Ecossistema*/
@@ -138,6 +186,8 @@ a {
     margin: 2.625rem auto 2.625rem auto;
    
 }
+
+
 
 /*Section diagrama*/
 
@@ -376,9 +426,14 @@ a {
 
 /*Section torne-se um parceiro*/
 
-#parceiros , #equipe, #fale_conosco {
+#parceiros , #fale_conosco {
     padding-top:8%; 
-    padding-bottom:5%;
+    padding-bottom:2%;
+}
+
+#equipe{
+    padding-top: 6%;
+    padding-bottom: 4%;
 }
 
 .parceiro{
@@ -545,6 +600,16 @@ form input {
     background-color: #28414d;
 }
 
+#fundo-card{
+    background-color: #22323a;
+    padding: 54px;
+}
+
+.mais, .veja-mais {
+    font-weight: bold;
+    color: #384d57;
+    text-align: center;
+}
 
 /*Fale Conosco*/
 
@@ -686,6 +751,13 @@ footer{
         text-align: center; 
         width: 100%;
     }
+    #ecossistemaTransparente{
+        font-size:37px;
+    }
+
+    #fundo-card{
+        padding: 15px;
+    }
 
 }
 
@@ -702,3 +774,4 @@ footer{
         margin-bottom: 9%;
     }
 }
+
