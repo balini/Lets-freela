@@ -22,6 +22,12 @@ a {
 
 /*Navbar*/
 
+
+.navImg img {
+    margin-top: 10px;
+}
+
+.navLogo img{
 .navbar {
     /* top: 0; */
     /* width: 100%; */
@@ -44,6 +50,7 @@ a {
 }
 
 /* .navLogo img{
+
     width: 15%;
     position: relative;
     float: left;
@@ -181,6 +188,7 @@ a {
 }
 
 
+
 /*Section diagrama*/
 
 .diagrama{
@@ -193,7 +201,7 @@ a {
 .diagrama-img{
     align-items: center;
     width: 100%;
-    max-width: 56.25rem;
+    max-width: 48.25rem;
 }
 
 /*Section foguete*/
@@ -278,7 +286,8 @@ a {
 }
 
 .startup-itens {
-    width: 65%;
+    width: 45%;
+    margin-left: 130px;
 }
 
 .startup-itens p {
@@ -428,7 +437,9 @@ a {
 }
 
 .parceiro{
-    background-image: url(../Assets/img/08.png)
+    background-image: url(../Assets/img/08.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .parceiro-titulo{
     color:#00cf65;
@@ -474,6 +485,7 @@ a {
 #caixa-form{
     border-radius: 1.25rem 0 0 1.25rem;
     margin-right: 0;
+    width: 280px;
 }
 #botao-form{
     background-color: #00cf65;
@@ -538,9 +550,9 @@ form input {
 
 /*Section equipe*/
 .equipe {
-    width: 100%;
-    height: 100%; 
-    background-image: url('../Assets/img/09.png')
+    background-image: url('../Assets/img/09.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .texto-grande{
@@ -603,6 +615,9 @@ form input {
 
 .fundo-fale-conosco{
     background-image: url('../Assets/img/10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .alinhaEtiqueta {
@@ -663,6 +678,11 @@ footer{
     
     .startup {
         flex-direction: column-reverse;
+    }
+
+    .startup-itens {
+        width: 65%;
+        margin-left: 0;
     }
     
     .startup-img {
