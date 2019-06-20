@@ -377,6 +377,21 @@ form input {
     background-image: url('../Assets/img/09.png')
 }
 
+.texto-grande{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:18px;
+    margin: 0;
+    text-align: center;
+}
+.texto-pequeno{
+    font-weight:bold;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
 #card-efect{
     position: relative;
     width: 50%;
