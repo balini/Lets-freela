@@ -20,6 +20,150 @@ a {
     cursor: pointer;
 }
 
+/*Navbar*/
+
+.navLogo img{
+    width: 15%;
+    position: relative;
+    float: left;
+}
+
+.navMenu {
+	text-align: right;
+}
+
+.navMenu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.navMenu ul li a {
+    color: #ffffff; 
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+/*Header*/
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #13191d;
+	padding: 15px 0;
+	z-index: 99;
+}
+
+
+.carousel-item{
+    margin-top: 85px;
+    text-align: center;
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Ecossistema*/
+
+.ecossistema {
+	background-image: url(../Assets/img/02.png);
+    padding: 67px;
+	background-size: cover;
+	text-align: center;
+
+}
+
+.ecossistemaTitulo{
+	font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    color: #ffffff;
+
+
+}
+
+#ecossistemaTransparente {
+	margin: 0;
+    text-align: center;
+    -webkit-text-stroke: 0.0625rem white;
+    font-weight: 800;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+    font-weight: 800;
+    line-height: 0.1875rem;
+    opacity: 0.45;
+	font-size: 3.125rem;
+	text-transform: uppercase;
+	
+}
+.ecossistemaTexto{
+	margin:0 auto;
+	margin-top: 50px;
+	max-width: 25em;
+	font-style:italic;
+	color: #ffff;
+
+}
+
+#divisor-ecossistema{
+    background-color: #00cf65;
+    width: 8.5vw;
+    padding: 0.0625rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2.625rem auto 2.625rem auto;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Section diagrama*/
 
 .diagrama{
