@@ -23,11 +23,6 @@ a {
 /*Navbar*/
 
 
-.navImg img {
-    margin-top: 10px;
-}
-
-.navLogo img{
 .navbar {
     /* top: 0; */
     /* width: 100%; */
@@ -50,7 +45,6 @@ a {
 }
 
 /* .navLogo img{
-
     width: 15%;
     position: relative;
     float: left;
@@ -94,6 +88,28 @@ a {
     align-items: flex-end;
 }
     
+
+
+    
+
+
+
+
+
+
+/* .navMenu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.navMenu ul li a {
+    color: #ffffff;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+} */
+
 
 /*Header*/
 
