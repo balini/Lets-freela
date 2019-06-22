@@ -822,12 +822,20 @@ footer{
         padding: 15px;
     }
 
+    #contato__informacao{
+        width: 100%;
+    }
+
 }
 
 @media(max-width: 420px){
     .card{
         width: 100%; 
         margin-bottom: 9%;
+    }
+    
+    #contato__informacao{
+        width: 100%;
     }
 }
 
