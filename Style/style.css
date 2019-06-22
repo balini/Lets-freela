@@ -353,7 +353,7 @@ a {
 .mindset {
     background-image: url('../Assets/img/07.png');  
     background-size: cover;
-    min-height: 130vh;
+    min-height: 128vh;
     background-position: center;
     background-repeat: no-repeat;
     font-size: 2.5rem;
@@ -365,7 +365,7 @@ a {
 .mindset-texto--branco {
     margin: 0;
     color: #ffffff;
-    padding-top: 6.25rem;
+    padding-top: 5rem;
 }
 
 .mindset-texto--transparente {
@@ -379,7 +379,7 @@ a {
 }
 
 .mindset-img {
-    margin-top: 6.25rem;
+    margin-top: 6rem;
     padding: 2.5rem;
 }
 
@@ -514,6 +514,10 @@ form input {
     color:#586f7a;
 }
 
+.alinhaSelect {
+    margin-top: 22px;
+}
+
 /*Section equipe*/
 .equipe {
     background-image: url('../Assets/img/09.png');
@@ -575,6 +579,16 @@ form input {
     font-weight: bold;
     color: #384d57;
     text-align: center;
+}
+
+.hoverLinkedin {
+    color: white;
+    opacity: 0.5;
+}
+
+.hoverLinkedin:hover {
+    color: #00cf65;
+    text-decoration: none;
 }
 
 /*Fale Conosco*/
@@ -673,6 +687,31 @@ footer{
     .inovacao-icones img {
         max-width: 8vw;
     }
+
+    .mindset {
+        min-height: 135vh;
+    }
+
+    .mindset-texto--branco {
+        padding-top: 3.25rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mindset {
+        min-height: 66vh;
+    }
+}
+
+@media(max-width: 720px){
+    .card{
+        width: 100%; 
+        margin-bottom: 9%;
+    }
+
+    .mindset-img {
+        margin-top: 0.5rem;
+    }
 }
 
 @media (max-width: 700px) {
@@ -728,13 +767,6 @@ footer{
 }
 
 @media(max-width: 420px){
-    .card{
-        width: 100%; 
-        margin-bottom: 9%;
-    }
-}
-
-@media(max-width: 720px){
     .card{
         width: 100%; 
         margin-bottom: 9%;
