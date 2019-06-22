@@ -34,19 +34,19 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#ecossistemaMenu">Nosso Ecossistema</a>
+                        <a class="nav-link" href="#ecossistema">Nosso Ecossistema</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Beneficios</a>
+                        <a class="nav-link" href="#linkBeneficios">Beneficios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Como Funciona</a>
+                        <a class="nav-link" href="#como-funciona">Como Funciona</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Equipe</a>
+                        <a class="nav-link" href="#equipe">Equipe</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#fale_conosco">Contato</a>
                     </li>
                     <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -59,20 +59,18 @@
 
     <!--Carrousel-->
     <section>
-
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="./Assets/img/01Slide_01.png"     alt="Primeiro Slide">
                     </div>
-                 
                 </div>
             </div>
     
         </section>
 
         <!--Section ecossistema-->
-        <section class="ecossistema">
+        <section class="ecossistema" id="ecossistema">
                 <div class="textos-ecossistema">
                     <h1 class="ecossistemaTitulo"> Nosso </h6><br><p id="ecossistemaTransparente">Ecossistema</p></h1>
                     <hr id="divisor-ecossistema">
@@ -92,8 +90,7 @@
         </section>
 
         <!--Section do foguete-->
-        <main id="linkBeneficios">
-
+        <main id="linkBeneficios" >
         <section class="foguete">
             <div class="container">
                 <div class="textos-beneficios">
@@ -154,7 +151,7 @@
         <!--Section do mindset de inovação-->
         <main id="linkComo">
 
-        <section class="mindset">
+        <section class="mindset" id="como-funciona">
             <p class="mindset-texto--branco">Como funciona nosso programa </p><p class="mindset-texto--transparente">de aceleração corporativa</p>
 
             <div class="mindset-img">
@@ -268,9 +265,15 @@
                 </div>
                 <div class="form-row align-items-center justify-content-center">
                     <div class="form-group col-md-6">
+
                     <div class="alinhaSelect">
                         <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"></label>
                         <select class="custom-select mr-sm-5 bg-transparent rounded-pill " id="inlineFormCustomSelect">
+
+                    <div class="col-auto my-3">
+                        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                        <select class="custom-select mr-sm-6 bg-transparent rounded-pill " id="inlineFormCustomSelect">
+
                         <option selected>Tipo de empresa</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
