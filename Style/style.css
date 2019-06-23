@@ -88,13 +88,6 @@ a {
     font-weight: bold;
 }
 
-
-.navbar-nav a:hover{
-    opacity: 0.5;
-    color: #00cf65;
-    transition: 0.3s;
-}
-
 /*Header*/
 
 .header {
