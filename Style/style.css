@@ -88,11 +88,11 @@ a {
     font-weight: bold;
 }
 
+
 .navbar-nav a:hover{
-    font-weight: bold;
-    border-bottom: 2px solid #00cf65;
     opacity: 0.5;
-    transition: 3s;
+    color: #00cf65;
+    transition: 0.3s;
 }
 
 /*Header*/
