@@ -804,3 +804,9 @@ footer{
 }
 
 
+@media(max-width: 1240px){
+    .alinhaMenu{
+        margin-left: auto;
+    }
+}
+
