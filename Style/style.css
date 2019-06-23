@@ -28,7 +28,6 @@ a {
     z-index: 99;
     text-align: right;
     position: fixed;
-
 }
 
 .navbar-brand img{
@@ -803,4 +802,9 @@ footer{
     }
 }
 
+@media(min-width: 1024px){
+    .alinhaMenu{
+        margin-left: auto;
+    } 
+}
 
