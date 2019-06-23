@@ -89,7 +89,6 @@ a {
  }
 }
 
-
 /*Header*/
 
 .header {
@@ -101,9 +100,7 @@ a {
 	z-index: 99;
 }
 .carousel-item{
-    
     width: 100%;
-
 }
 
 
