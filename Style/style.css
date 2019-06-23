@@ -805,14 +805,14 @@ footer{
 @media(min-width: 1024px){
     .alinhaMenu{
         margin-left: auto;
-        padding-right:5%; 
+        padding-right:3%; 
     } 
 }
 
 @media(max-width: 1240px){
     .alinhaMenu{
         margin-left: auto;
-        padding-right:4%; 
+        padding-right:3%; 
         
     }
 }
