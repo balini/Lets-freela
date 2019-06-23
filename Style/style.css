@@ -803,3 +803,10 @@ footer{
     }
 }
 
+
+@media(min-width: 1403px){
+    .navbar-collapse{
+        margin-left: 42%;
+    } 
+}
+
