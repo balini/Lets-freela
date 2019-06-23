@@ -84,6 +84,10 @@ a {
  }
 }
 
+.navbar-nav a{
+    font-weight: bold;
+}
+
 .navbar-nav a:hover{
     font-weight: bold;
     border-bottom: 2px solid #00cf65;
