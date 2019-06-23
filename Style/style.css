@@ -804,7 +804,7 @@ footer{
 }
 
 
-@media(min-width: 1403px){
+@media(min-width: 1200px){
     .navbar-collapse{
         margin-left: 42%;
     } 
