@@ -831,9 +831,18 @@ footer{
 @media(min-width: 1024px){
     .alinhaMenu{
         margin-left: auto;
+        padding-right:2%; 
     } 
     .alinhaContato {
         padding-right: 3.125rem;
+    }
+}
+
+@media(max-width: 1240px){
+    .alinhaMenu{
+        margin-left: auto;
+        padding-right:2%; 
+        
     }
 }
 
