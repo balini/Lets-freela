@@ -802,10 +802,9 @@ footer{
     }
 }
 
-
-@media(min-width: 1403px){
-    .navbar-collapse{
-        margin-left: 42%;
+@media(min-width: 1024px){
+    .alinhaMenu{
+        margin-left: auto;
     } 
 }
 
