@@ -19,7 +19,7 @@ form.addEventListener('submit', function(e) {
  */
 
 $('#formulario').submit(function(e) {
-    let allInputs = $(":input").val();
+   /*  let allInputs = $(":input").val();
     let valid = "";
     if(valid.test(allInputs)){
         alert("Preencha todos os campos do formulário");
@@ -27,17 +27,14 @@ $('#formulario').submit(function(e) {
     else{
         alert("Obrigada");   
     }
-
-
-    e.preventDefault();
-
+ */
     const objFormulario = {
-        firstname: this.nome,
-	    lastname: this.sobrenome,
-	    fromMail: this.email,
-	    company: this.empresa,
-	    message: this.campo,
-	    role: this.cargo
+        "firstname": "this.nome",
+	    "lastname": "this.sobrenome",
+	    "fromMail": "this.email",
+	    "company": "this.empresa",
+	    "message": "this.campo",
+	    "role": "this.cargo"
 
     }
     fetch('https://twc2wdwe32.execute-api.us-east-1.amazonaws.com/contact/mail',{
@@ -45,7 +42,8 @@ $('#formulario').submit(function(e) {
         //converter objeto para Json
         body: JSON.stringify(objFormulario)
     })
-    
+    console.log(objFormulario)
+    /* 
     .then(resp => {
         if(!resp.ok)
             throw resp;
@@ -58,5 +56,7 @@ $('#formulario').submit(function(e) {
         .then(res =>{
             (console.log(res))
         })
-    })
+        
+    }) */
+
  });
