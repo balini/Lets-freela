@@ -1,4 +1,4 @@
-/* let form = document.getElementById('formulario');
+ let form = document.getElementById('formulario');
 let nome = document.getElementById('first');
 let sobrenome = document.getElementById('last')
 let email = document.getElementById('inputEmail4');
@@ -6,7 +6,7 @@ let cargo = document.getElementById('text');
 let empresa = document.getElementById('text2')
 let campo = document.getElementById('exampleFormControlTextarea1')
 
-
+/*
 form.addEventListener('submit', function(e) {
     // alerta o valor do nome
     if(nome.value == "" | sobrenome.value =="" | cargo.value == "" | empresa.value == "" | campo.value == ""){
@@ -32,12 +32,12 @@ $('#formulario').submit(function(e) {
     e.preventDefault();
 
     const objFormulario = {
-        firstname: "gustavo",
-	    lastname: "henrique",
-	    fromMail: "iam@gustavohenrique.net",
-	    company: "gustavo henrique hurricane mega power truck ltda",
-	    message: "1, 2, 3 testando mensagem vindo do site",
-	    role: "CEO"
+        firstname: this.nome,
+	    lastname: this.sobrenome,
+	    fromMail: this.email,
+	    company: this.empresa,
+	    message: this.campo,
+	    role: this.cargo
 
     }
     fetch('https://twc2wdwe32.execute-api.us-east-1.amazonaws.com/contact/mail',{
