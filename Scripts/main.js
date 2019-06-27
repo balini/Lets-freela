@@ -19,6 +19,7 @@ form.addEventListener('submit', function(e) {
  */
 
 $('#formulario').submit(function(e) {
+    e.preventDefault()
    /*  let allInputs = $(":input").val();
     let valid = "";
     if(valid.test(allInputs)){
