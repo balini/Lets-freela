@@ -50,18 +50,17 @@ $('#formulario').submit(function(e) {
         body: JSON.stringify(objFormulario)
     })
     .then(resp => {
-        if(resp.ok)
-            throw resp;
+        if(resp.status === 204)
+           /*  throw resp; */
         return resp.json()
         (console.log(resp))
+        alert('Seus dados foram enviados')
     })
-
     /* .catch((err) =>{
         err.json()
         .then(res =>{
             (console.log(res))
         })
-        
     })  */
 
  });
