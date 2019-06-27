@@ -50,7 +50,7 @@ $('#formulario').submit(function(e) {
         body: JSON.stringify(objFormulario)
     })
     console.log(objFormulario)
-    /* 
+    
     .then(resp => {
         if(!resp.ok)
             throw resp;
@@ -64,6 +64,6 @@ $('#formulario').submit(function(e) {
             (console.log(res))
         })
         
-    }) */
+    }) 
 
  });
