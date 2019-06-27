@@ -1,4 +1,4 @@
- let form = document.getElementById('formulario');
+let form = document.getElementById('formulario');
 let nome = document.getElementById('first');
 let sobrenome = document.getElementById('last')
 let email = document.getElementById('inputEmail4');
@@ -49,21 +49,19 @@ $('#formulario').submit(function(e) {
         //converter objeto para Json
         body: JSON.stringify(objFormulario)
     })
-    console.log(objFormulario)
-    
     .then(resp => {
-        if(!resp.ok)
+        if(resp.ok)
             throw resp;
         return resp.json()
         (console.log(resp))
     })
 
-    .catch((err) =>{
+    /* .catch((err) =>{
         err.json()
         .then(res =>{
             (console.log(res))
         })
         
-    }) 
+    })  */
 
  });
