@@ -27,15 +27,23 @@ $('#formulario').submit(function(e) {
         alert("Obrigada");   
     }
  */
-    const objFormulario = {
-        "firstname": "this.nome",
-	    "lastname": "this.sobrenome",
-	    "fromMail": "this.email",
-	    "company": "this.empresa",
-	    "message": "this.campo",
-	    "role": "this.cargo"
 
+    let inputs = $('#formulario :input, textarea');
+    console.log(inputs);
+    let valoresFormulario = {};
+    inputs.each(function() {
+        valoresFormulario[this.name] = $(this).val();
+    })
+    console.log(valoresFormulario);
+    const objFormulario = {
+        firstname: valoresFormulario['firstname'],
+	    lastname: valoresFormulario['lastname'],
+	    fromMail: valoresFormulario['email'],
+	    company: valoresFormulario['company'],
+	    message: valoresFormulario['message'],
+	    role: valoresFormulario['role']
     }
+
     fetch('https://twc2wdwe32.execute-api.us-east-1.amazonaws.com/contact/mail',{
         method: 'POST',
         //converter objeto para Json
