@@ -18,7 +18,7 @@ form.addEventListener('submit', function(e) {
 });
  */
 
-$('#formulario').submit(function() {
+$('#formulario').submit(function(e) {
     let allInputs = $(":input").val();
     let valid = "";
     if(valid.test(allInputs)){
@@ -30,4 +30,33 @@ $('#formulario').submit(function() {
 
 
     e.preventDefault();
+
+    const objFormulario = {
+        firstname: "gustavo",
+	    lastname: "henrique",
+	    fromMail: "iam@gustavohenrique.net",
+	    company: "gustavo henrique hurricane mega power truck ltda",
+	    message: "1, 2, 3 testando mensagem vindo do site",
+	    role: "CEO"
+
+    }
+    fetch('https://twc2wdwe32.execute-api.us-east-1.amazonaws.com/contact/mail',{
+        method: 'POST',
+        //converter objeto para Json
+        body: JSON.stringify(objFormulario)
+    })
+    
+    .then(resp => {
+        if(!resp.ok)
+            throw resp;
+        return resp.json()
+        (console.log(resp))
+    })
+
+    .catch((err) =>{
+        err.json()
+        .then(res =>{
+            (console.log(res))
+        })
+    })
  });
