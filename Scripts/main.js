@@ -10,7 +10,6 @@ let erro = document.getElementById('divErro')
 
 
 form.addEventListener('submit', function(e) {
-    // alerta o valor do nome
     if(nome.value == "" | sobrenome.value =="" | cargo.value == "" | empresa.value == "" | campo.value == ""){
         alert("Preencha todos os campos")
     }
@@ -20,15 +19,6 @@ form.addEventListener('submit', function(e) {
 
 $('#formulario').submit(function(e) {
     e.preventDefault()
-   /*  let allInputs = $(":input").val();
-    let valid = "";
-    if(valid.test(allInputs)){
-        alert("Preencha todos os campos do formulário");
-    }
-    else{
-        alert("Obrigada");   
-    }
- */
 
     let inputs = $('#formulario :input, textarea');
     console.log(inputs);
@@ -53,34 +43,16 @@ $('#formulario').submit(function(e) {
     })
     .then(resp => {
         console.log(resp);
-        alert(resp.status);
         if(resp.status != 204){
-            alert('epaopa')
             return $(erro).addClass('active'), $(sucesso).removeClass('active');
-        }else {
-            alert('rolou')
+        }
+        else {
             return $(sucesso).addClass('active'), $(erro).removeClass('active');
         }
         
-    }).catch( error => {
-        console.log(error);
-        alert("NÂO ROLOU")
     })
-    /* .catch((err) =>{
-        err.json()
-        .then(res =>{
-            (console.log(res))
-        })
-
-    })  */
-/* 
-    .then(response => 
-        response.json()
-    )
-    .catch(error => 
-        console.error('Error', error)
-    )
-
-     .then(response => console.log('Success', JSON.stringify(response)))
- */
+    .catch( error => {
+        console.log(error);
+        alert("Um erro ocorreu, tente novamente")
+    })
  });
