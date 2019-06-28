@@ -51,8 +51,13 @@ $('#formulario').submit(function(e) {
     })
     .then(resp => {
         console.log(resp);
-        alert(resp.status);     
-        alert('Seus dados foram enviados')
+        alert(resp.status);
+        if(resp.status != 204){
+            alert('epaopa')
+        }else {
+            alert('rolou')
+        }
+        
     }).catch( error => {
         console.log(error);
         alert("NÂO ROLOU")
