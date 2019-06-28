@@ -74,6 +74,9 @@ a {
     .carousel{
       width: 100%;
     }
+    #alinhaControl{
+        margin-bottom: 75%;
+    }
 }
     
  
@@ -81,6 +84,9 @@ a {
  .navbar-brand{
      width: 60%;
  }
+ #alinhaControl{
+    margin-bottom: 75%;
+}
 }
 
 li > a {
@@ -753,11 +759,17 @@ footer{
     .mindset-texto--branco {
         padding-top: 3.25rem;
     }
+    #alinhaControl{
+        margin-bottom: 75%;
+    }
 }
 
 @media (max-width: 1024px) {
     .mindset {
         min-height: 66vh;
+    }
+    #alinhaControl{
+        margin-bottom: 55%;
     }
 }
 
@@ -770,17 +782,26 @@ footer{
     .mindset-img {
         margin-top: 0.5rem;
     }
+    #alinhaControl{
+        margin-bottom: 75%;
+    }
 }
 
 @media (max-width: 700px) {
     .inovacao-icones img {
         max-width: 10vw;
     }
+    #alinhaControl{
+        margin-bottom: 75%;
+    }
 }
 
 @media (max-width: 632px) {
     .mindset-texto--transparente {
         line-height: 2.813rem;
+    }
+    #alinhaControl{
+        margin-bottom: 75%;
     }
 }
 
@@ -825,6 +846,9 @@ footer{
     #contato__informacao{
         width: 100%;
     }
+    #alinhaControl{
+        margin-bottom: 75%;
+    }
 
 }
 
@@ -837,6 +861,9 @@ footer{
     #contato__informacao{
         width: 100%;
     }
+    #alinhaControl{
+        margin-bottom: 88%;
+    }
 }
 
 @media(min-width: 1024px){
@@ -844,14 +871,19 @@ footer{
         margin-left: auto;
         padding-right:2%; 
     } 
+    #alinhaControl{
+        margin-bottom: 7%;
+    }
     
 }
 
-@media(max-width: 1240px){
+@media(min-width: 1240px){
     .alinhaMenu{
         margin-left: auto;
         padding-right:2%; 
-        
+    }
+    #alinhaControl{
+        margin-bottom: 7%;
     }
 }
 
