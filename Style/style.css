@@ -442,9 +442,14 @@ li > a {
 
 /*Section torne-se um parceiro*/
 
-#parceiros , #fale_conosco {
+#parceiros{
     padding-top:8%; 
     padding-bottom:6%;
+}
+
+#fale_conosco{
+    padding-top:2%; 
+    padding-bottom:6%; 
 }
 
 #equipe{
@@ -894,4 +899,8 @@ footer{
 
 .active{
     display:block!important;
+  }
+
+  .timeOut{
+    transition-delay: 1s;
   }
