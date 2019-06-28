@@ -658,16 +658,21 @@ form input {
     align-items: center;
 }
 
-#divSucesso{
+#divSucesso, #divSucessoAntenado{
     margin:0 auto; 
     text-align: center;
     display:none;
 }
 
-#divErro{
+
+#divErro, #divErroAntenado{
     margin:0 auto; 
     text-align: center; 
     display:none;
+}
+
+#divSucessoAntenado, #divErroAntenado{
+    margin-bottom: 1em;
 }
 
 /*Section footer*/
