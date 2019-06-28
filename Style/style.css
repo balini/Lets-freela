@@ -652,6 +652,18 @@ form input {
     align-items: center;
 }
 
+#divSucesso{
+    margin:0 auto; 
+    text-align: center;
+    display:none;
+}
+
+#divErro{
+    margin:0 auto; 
+    text-align: center; 
+    display:none;
+}
+
 /*Section footer*/
 footer{
     padding-top: 3%;
