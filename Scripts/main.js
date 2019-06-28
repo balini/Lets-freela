@@ -5,6 +5,8 @@ let email = document.getElementById('inputEmail4');
 let cargo = document.getElementById('text');
 let empresa = document.getElementById('text2')
 let campo = document.getElementById('exampleFormControlTextarea1')
+let sucesso = document.getElementById('divSucesso')
+let erro = document.getElementById('divErro')
 
 
 form.addEventListener('submit', function(e) {
@@ -54,8 +56,10 @@ $('#formulario').submit(function(e) {
         alert(resp.status);
         if(resp.status != 204){
             alert('epaopa')
+            return $(erro).addClass('active'), $(sucesso).removeClass('active');
         }else {
             alert('rolou')
+            return $(sucesso).addClass('active'), $(erro).removeClass('active');
         }
         
     }).catch( error => {
